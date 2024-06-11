@@ -1,0 +1,96 @@
+.add{
+    padding: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: medium;
+    border-color: rgb(207, 7, 7);
+    border-width: 10px;
+    border-radius: 30px;
+
+}
+
+body{
+    font-family: Arial;
+    background-image: url('360_F_456001627_vYt7ZFjxEQ1sshme67JAXorKRPo8gsfN.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.date{
+    padding: 19px;
+    background-color: rgb(206, 44, 138);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: medium;
+    border-radius: 30px;
+    border-color: rgb(116, 203, 17);
+    border-width: 10px;
+    border-radius: 30px;
+}
+
+.add1{
+    padding: 18px 30px;
+    background-color: rgb(19, 53, 203);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: medium;
+    border-radius: 30px;
+    border-color: rgb(207, 7, 160);
+    border-width: 10px;
+    border-radius: 30px;
+}
+.name1{
+    margin-right: 60px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    
+
+}
+
+.date1{
+    margin-left: 100px;
+    font-size: medium;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.del{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    margin-left: 80px;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-radius: 30px;
+}
+
+.todo img {
+    width: 500px; 
+    height: 100px; 
+    margin-left: 350px;
+    margin-top: 0px;
+    border-radius: 300px;
+    border-color: rgb(207, 7, 7);
+    border-width: 10px;
+    
+}

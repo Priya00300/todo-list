@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+    Todo List  
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><div class="todo"><p class="to">  </p><img src="OvMZBs9.jpg" alt="TODO Image">
+    
+</div>
+    <input placeholder="Add Task" class="add">
+    <input type="date" class="date">
+    <button onclick=" add(); " class="add1">Add</button>
+    <div class="display"></div>
+    <script >const todolist = [];
+        function add(){
+            
+            const element = document.querySelector('.add');
+            const name=element.value;
+        
+            const date1 = document.querySelector('.date');
+            const date=date1.value;
+        
+            todolist.push({name,date});
+        
+            element.value ='';
+            date1.value=``;
+            rendertodo()
+        }
+        
+        function rendertodo(){
+            let todolistHTML=``;
+            for( let i=0;i< todolist.length;i++){
+                const todoObject=todolist[i];
+                const {name,date} = todoObject;
+                const html=`<div class="item">
+                <span class="name1">${name}</span>
+                <span class="date1">${date}</span>
+                <button onclick='todolist.splice(${i},1);
+                rendertodo()' class='del'>Delete</button>
+             </div>`;
+                todolistHTML +=html;  
+            }
+            document.querySelector('.display')
+            .innerHTML=todolistHTML;
+        
+        }
+        </script>
+</body>
+</html>
